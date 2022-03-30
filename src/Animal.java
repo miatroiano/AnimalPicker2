@@ -14,5 +14,8 @@ public class Animal {
 			System.out.println("cat art here");
 			
 		}
+		else {
+			System.out.println("invalid option!");
+		}
 	}
 }
