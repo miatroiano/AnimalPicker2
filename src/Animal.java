@@ -20,6 +20,12 @@ public class Animal {
 						);
 				loop = false;
 			}
+			else if(animals.equalsIgnoreCase("fish")) {
+				System.out.println(
+						"|\\   \\\\\\\\__     o\n| \\_/    o \\    o \n> _   (( <_  oo  \n| / \\__+___/      \n|/     |/"
+						);
+				loop = false;
+			}
 			else {
 				System.out.println("invalid option!");
 			}
