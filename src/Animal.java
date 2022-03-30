@@ -9,12 +9,15 @@ public class Animal {
 			System.out.println("Would you like to look at a Dog or Cat?");
 			String animals = scanner.nextLine();
 			if (animals.equalsIgnoreCase("dog")) {
-				System.out.println(" dog art here");
+				System.out.println("   __\n        /  \\\n       / ..|\\\n      (_\\  |_)\n      /  \\@\' \n     /     \\\n_   /  `   |\n\\\\/  \\  | _\\\n \\   /_ || \\\\_\n  \\____)|_) \\_)"
+						);
 				loop = false;
 				
 			}
 			else if(animals.equalsIgnoreCase("cat")) {
-				System.out.println("cat art here");
+				System.out.println(
+						"  |\\---/|\n   | ,_, |\n    \\_`_/-..----.\n ___/ `   \' ,\"\"+ \\  sk\n(__...\'   __\\    |`.___.\';\n  (_,...\'(_,.`__)/\'.....+"
+						);
 				loop = false;
 			}
 			else {
